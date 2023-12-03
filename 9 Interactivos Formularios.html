@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="jpeg" href="Imagenes/Logo.jpeg">
+    <link rel="stylesheet" href="style.css">
+    <title>21 INTERACTIVOS FORMULARIOS</title>
+</head>
+<body>
+    <header class="contheader">
+        <nav class="navheader">
+            <ul>
+                <li>
+                    <a href="http://127.0.0.1:5500/CLASES%20CSS/0%20index.html">CSS</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="principal">
+        <div class="ladoizq">
+            <nav class="flotanteizq">
+            <h3>MENU</h3>
+                <ul>
+                    <li>
+                        <a href="1 Texto ApuntesCel.html">Texto
+                            Apuntes Cel</a>
+                    </li>
+                    <li>
+                        <a href="2 Texto listas.html">Texto Lista</a>
+                    </li>
+                    <li>
+                        <a href="3 Textos Tablas.html">Texto Tabla</a>
+                    </li>
+                    <li>
+                        <a href="4 Estructura Semantica.html"> Estructura Semantica</a>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="5 Multimedia Imagen.html">Multimedia Imagen</a>
+                    </li>
+                    <li>
+                        <a href="6 Multimedia Video.html">Multimedia Video</a>
+                    </li>
+                    <li>
+                        <a href="7 Multimedia iframe.html">Multimedia Iframe</a>
+                    </li>
+                    <li>
+                        <a href="8 Interactivos Enlaces-Menu.html">
+                            interactivos Enlaces-Menu</a>
+                    </li>
+                    <li>
+                        <a href="9 Interactivos Formularios.html">Interativos Formularios</a>
+                    </li>
+                    </li>
+                    <li>
+                        <a href="#navfooter">Abajo</a>
+                    </li>
+                
+                </ul>
+            </nav>
+            <div class="paginas">
+                <a href="8 Interactivos Enlaces-Menu.html">
+                    <button>
+                        Interactivos Enlaces-Menu
+                    </button>
+                </a>
+                <button>
+                    <a id="arriba" href="#top"> Top
+                    </a>
+                </button>
+            </div>
+        </div>
+        <div class="content">
+            <h1>21 FORMULARIOS</h1>
+            <div>
+                <p>
+                    El elemento HTML <code>form</code> representa una <i>seccion</i> de un documento que contiene <mark><b>controles interactivos</b> que permiten a un usuario  <b>enviar información a un servidor web</b></mark>
+                </p>
+                <p>
+                    El elemento HTML <code>input</code> se usa para crear controles interactivos para formularios basados en la web con el fin de recibir datos del usuario.
+                </p>
+            <div class="nota">
+                <strong>NOTA</strong> Hay disponible una amplia variedad de tipos de datos de entrada y widgets de control, que dependen del dispositivo y el agente de usuario (user agent (en-US)).El elemento <code>input</code> es uno de los más potentes y complejos en todo HTML debido a la gran cantidad de combinaciones de tipos y atributos de entrada.
+            </div>
+                
+                
+            </div>
+            <h2 class="ejemplo">Ejemplo 1</h2>
+            <form>
+                <input type="text" placeholder="Nombre...">
+            
+            </form>
+            <br>
+            <br>
+            <img src="Imagenes/Formularios ejemplo 1.jpg" width="500" />
+            <h2 class="ejemplo">Ejemplo 2</h2>
+            <div style="background-color:rgb(240, 235, 235) ;">
+                <p>
+                    Nota: El Elemento  <b><i>label</i></b> <abbr title="representa una etiqueta para un elemento en una interfaz de usuario.">label</abbr>  Este puede estar asociado con un control ya sea mediante la utilizacion del <i style="color:red ;">atributo for</i>,  o ubicando el control dentro del elemento label.Tal control es llamado "el control etiquetado" del elemento label.
+                </p>
+            </div>
+            <form>
+                <label for="nombre">Aqui Nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                <input type="submit" value="Enviar Formulario" />
+            </form>
+            <br>
+            <br>
+            <img src="Imagenes/Formularios ejemplo 2.jpg" width="500" />
+            <h2 class="ejemplo">Ejemplo 3</h2>
+            <form>
+                <label for="description">Descripción</label>
+                <textarea id="description"></textarea>
+            </form>
+            <img src="Imagenes/Formulario ejemplo 3.jpg" width="500">
+            <br>
+            <br>
+            <h2 class="ejemplo">Ejemplo 4</h2>
+            <p>
+                Este ejemplo contiene la etiqueta <code>fieldset</code>, El elemento <code>fieldset</code> (grupo de campos) permite organizar en grupos los campos de un formulario.
+            </p>
+            <fieldset>
+                <legend>Información Personal</legend>
+                <div>
+                    <label for="nombre">Aqui Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                </div>
+                <div>
+                    <label for="description">Descripción</label>
+                    <textarea id="description"></textarea>
+                </div>
+                <div>
+                    Email
+                    <input type="email" />
+                </div>
+                <div>
+                    Contraseña
+                    <input type="password" />
+                </div>
+                <div>
+                    Radio
+                    <input type="radio" name="genero" id="hombre" value="mujer"/>
+                    <label for="hombre">hombre</label>
+
+                    <input type="radio" name="genero" id="mujer" value="mujer" />
+                    <label for="mujer">mujer</label>
+                </div>
+            </fieldset>
+            <input type="submit" value="Enviar Formulario">
+            <br>
+            <br>
+                <img src="Imagenes/Formulario ejemplo 4.jpg"; height="350">
+            <p>
+                The value attribute specifies the value of an <code style="color: red ;">input element</code> The content of this attribute represents the value to be submitted with the form, should this option be selected. If
+                this attribute is omitted, the value is taken from the text content of the option element. The value attribute is used differently for different input types:
+
+                <ul>
+                    <li>For "button", "reset", and "submit" - it defines the text on the button</li>
+                    <li>For "text", "password", and "hidden" - it defines the initial (default) value of the input field</li>
+                    <li>For "checkbox", "radio", "image" - it defines the value associated with the input (this is also the value that is
+                    sent on submit)</li>
+                </ul>
+            </p>
+            <div>
+                Select:
+                <select>
+                    <option value="hombre">Hombre</option>
+                    <option value="mujer">Mujer</option>
+                </select>
+            </div>
+            <img src="Imagenes/select.jpg" width="500"/>
+            <div>
+                checkbox:
+                <label>
+                    <input type="checkbox"/> Mayor de edad
+                </label>
+                <label>
+                    <input type="checkbox"/>Menos de edad
+                </label>
+            </div>
+            <img src="Imagenes/chekbox.jpg" width="500" />
+            <div>
+                Color:
+                <input type="color"/>
+            </div>
+            <div>
+                Fecha:
+                <input type="date" />
+            </div>
+            <div>
+                Ficheros
+                <input type="file" />
+            </div>
+            <section id="APUNTESIMÁGENES">
+                <H2>APUNTES</H2>
+                <img src="Imagenes/Apuntes/Formularios 21/Notes_221203_083812_099.png" alt="099" width="600">
+                <br>
+                <img src="Imagenes/Apuntes/Formularios 21/Notes_221203_083819_052.png" alt="052" width="600">
+                <br>
+                <img src="Imagenes/Apuntes/Formularios 21/Notes_221203_083822_7a0.png" alt="7a0" width="600">
+                <img src="Imagenes/Apuntes/Formularios 21/Notes_221203_083829_e4b.png" alt="e4b" width="600">
+            </section>
+            <section id="ANEXOS">
+                <H2>ANEXOS</H2>
+                <img src="Imagenes/Apuntes/Formularios 21/input types.jpg" alt="tipos de formularios">
+            </section>
+            <section id="CONCEPTOYMC">
+                <H2>CONCEPTOYMC</H2>
+                <iframe src="https://miro.com/app/board/uXjVNdP0iqA=/?share_link_id=806709011044" frameborder="0" width="600px" height="600px"></iframe>
+            </section>
+            
+        </div>
+        <div class="ladoder">
+            <nav class="flotanteder">
+                <h3>SECCIONES</h3>
+                <ul>
+                    <li>
+                        <a href="#APUNTESIMÁGENES">Apuntes imagenes</a>
+                    </li>
+                    <li>
+                        <a href="#EJEMPLOS">Ejemplos</a>
+                    </li>
+                    <li>
+                        <a href="#APUNTES">Apuntes</a>
+                    </li>
+                    <li>
+                        <a href="#EJERCICIOS">Ejercicios</a>
+                    </li>
+                    <li>
+                        <a href="#GLOSARIO">Glosario</a>
+                    </li>
+                    <li>
+                        <a href="#FUENTES">Fuentes</a>
+                    </li>
+                    <li>
+                        <a href="#ANEXOS">Anexos</a>
+                    </li>
+                    <li>
+                        <a href="#CONCEPTOYMC">ConcetoyMc</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+</body>
+</html>

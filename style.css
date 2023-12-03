@@ -1,0 +1,71 @@
+html {
+    scroll-behavior: smooth;
+}
+header,
+footer {
+    background-color: #c0dbb2;
+    border: 1px solid #349a05;
+}
+
+h2 {
+    color: #349a05;
+}
+
+img {
+    width: 600px;
+}
+.encabezado {
+    border: 1px solid #d4bb1a;
+    background-color: #182F29;
+}
+.principal {
+    display: flex;
+    justify-content: space-around;
+    height: fit-content;
+    align-content: stretch;
+    border: 1px solid #d4bb1a;
+    background-color: #D9ABB6;
+}
+.ladoizq, .ladoder {
+    border: 1px solid #91e969;
+    background-color: #D9ABB6;
+    flex-basis: 25%;
+}
+.flotanteizq, .flotanteder {
+    border: 1px solid #cccccc;
+    position: fixed;
+}
+.content {
+    border: 1px solid #e9b869;
+    background-color: #BCCFD5;
+    flex-basis: 50%;
+}
+.fondo {
+    border: 1px solid #d4bb1a;
+    background-color: #182F29;
+}
+.paginas {
+    border: 1px solid #ffffff;
+    padding: 2px;
+    position: sticky ;
+    top: 550px;
+}
+.paginas button {
+    font-size: 10px;
+}
+.contheader {
+    display:flex ;
+}
+.navheader li {
+    display: inline;
+}
+
+
+
+
+
+.pruebaparrafo {
+    color: #349a05;
+    border: 1px solid black;
+}
+
