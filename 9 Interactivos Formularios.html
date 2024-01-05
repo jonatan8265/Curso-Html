@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <title>21 INTERACTIVOS FORMULARIOS</title>
 </head>
+
 <body>
     <header class="contheader">
         <nav class="navheader">
@@ -21,8 +23,11 @@
     <div class="principal">
         <div class="ladoizq">
             <nav class="flotanteizq">
-            <h3>MENU</h3>
+                <h3>MENU</h3>
                 <ul>
+                    <li>
+                        <a href="index.html">Index</a>
+                    </li>
                     <li>
                         <a href="1 Texto ApuntesCel.html">Texto
                             Apuntes Cel</a>
@@ -35,7 +40,7 @@
                     </li>
                     <li>
                         <a href="4 Estructura Semantica.html"> Estructura Semantica</a>
-                        </a>
+
                     </li>
                     <li>
                         <a href="5 Multimedia Imagen.html">Multimedia Imagen</a>
@@ -57,7 +62,7 @@
                     <li>
                         <a href="#navfooter">Abajo</a>
                     </li>
-                
+
                 </ul>
             </nav>
             <div class="paginas">
@@ -76,21 +81,27 @@
             <h1>21 FORMULARIOS</h1>
             <div>
                 <p>
-                    El elemento HTML <code>form</code> representa una <i>seccion</i> de un documento que contiene <mark><b>controles interactivos</b> que permiten a un usuario  <b>enviar información a un servidor web</b></mark>
+                    El elemento HTML <code>form</code> representa una <i>seccion</i> de un documento que contiene
+                    <mark><b>controles interactivos</b> que permiten a un usuario <b>enviar información a un servidor
+                            web</b></mark>
                 </p>
                 <p>
-                    El elemento HTML <code>input</code> se usa para crear controles interactivos para formularios basados en la web con el fin de recibir datos del usuario.
+                    El elemento HTML <code>input</code> se usa para crear controles interactivos para formularios
+                    basados en la web con el fin de recibir datos del usuario.
                 </p>
-            <div class="nota">
-                <strong>NOTA</strong> Hay disponible una amplia variedad de tipos de datos de entrada y widgets de control, que dependen del dispositivo y el agente de usuario (user agent (en-US)).El elemento <code>input</code> es uno de los más potentes y complejos en todo HTML debido a la gran cantidad de combinaciones de tipos y atributos de entrada.
-            </div>
-                
-                
+                <div class="nota">
+                    <strong>NOTA</strong> Hay disponible una amplia variedad de tipos de datos de entrada y widgets de
+                    control, que dependen del dispositivo y el agente de usuario (user agent (en-US)).El elemento
+                    <code>input</code> es uno de los más potentes y complejos en todo HTML debido a la gran cantidad de
+                    combinaciones de tipos y atributos de entrada.
+                </div>
+
+
             </div>
             <h2 class="ejemplo">Ejemplo 1</h2>
             <form>
                 <input type="text" placeholder="Nombre...">
-            
+
             </form>
             <br>
             <br>
@@ -98,7 +109,11 @@
             <h2 class="ejemplo">Ejemplo 2</h2>
             <div style="background-color:rgb(240, 235, 235) ;">
                 <p>
-                    Nota: El Elemento  <b><i>label</i></b> <abbr title="representa una etiqueta para un elemento en una interfaz de usuario.">label</abbr>  Este puede estar asociado con un control ya sea mediante la utilizacion del <i style="color:red ;">atributo for</i>,  o ubicando el control dentro del elemento label.Tal control es llamado "el control etiquetado" del elemento label.
+                    Nota: El Elemento <b><i>label</i></b> <abbr
+                        title="representa una etiqueta para un elemento en una interfaz de usuario.">label</abbr> Este
+                    puede estar asociado con un control ya sea mediante la utilizacion del <i
+                        style="color:red ;">atributo for</i>, o ubicando el control dentro del elemento label.Tal
+                    control es llamado "el control etiquetado" del elemento label.
                 </p>
             </div>
             <form>
@@ -119,7 +134,8 @@
             <br>
             <h2 class="ejemplo">Ejemplo 4</h2>
             <p>
-                Este ejemplo contiene la etiqueta <code>fieldset</code>, El elemento <code>fieldset</code> (grupo de campos) permite organizar en grupos los campos de un formulario.
+                Este ejemplo contiene la etiqueta <code>fieldset</code>, El elemento <code>fieldset</code> (grupo de
+                campos) permite organizar en grupos los campos de un formulario.
             </p>
             <fieldset>
                 <legend>Información Personal</legend>
@@ -141,7 +157,7 @@
                 </div>
                 <div>
                     Radio
-                    <input type="radio" name="genero" id="hombre" value="mujer"/>
+                    <input type="radio" name="genero" id="hombre" value="mujer" />
                     <label for="hombre">hombre</label>
 
                     <input type="radio" name="genero" id="mujer" value="mujer" />
@@ -151,17 +167,22 @@
             <input type="submit" value="Enviar Formulario">
             <br>
             <br>
-                <img src="Imagenes/Formulario ejemplo 4.jpg"; height="350">
+            <img src="Imagenes/Formulario ejemplo 4.jpg" ; height="350">
             <p>
-                The value attribute specifies the value of an <code style="color: red ;">input element</code> The content of this attribute represents the value to be submitted with the form, should this option be selected. If
-                this attribute is omitted, the value is taken from the text content of the option element. The value attribute is used differently for different input types:
+                The value attribute specifies the value of an <code style="color: red ;">input element</code> The
+                content of this attribute represents the value to be submitted with the form, should this option be
+                selected. If
+                this attribute is omitted, the value is taken from the text content of the option element. The value
+                attribute is used differently for different input types:
 
-                <ul>
-                    <li>For "button", "reset", and "submit" - it defines the text on the button</li>
-                    <li>For "text", "password", and "hidden" - it defines the initial (default) value of the input field</li>
-                    <li>For "checkbox", "radio", "image" - it defines the value associated with the input (this is also the value that is
+            <ul>
+                <li>For "button", "reset", and "submit" - it defines the text on the button</li>
+                <li>For "text", "password", and "hidden" - it defines the initial (default) value of the input field
+                </li>
+                <li>For "checkbox", "radio", "image" - it defines the value associated with the input (this is also the
+                    value that is
                     sent on submit)</li>
-                </ul>
+            </ul>
             </p>
             <div>
                 Select:
@@ -170,20 +191,20 @@
                     <option value="mujer">Mujer</option>
                 </select>
             </div>
-            <img src="Imagenes/select.jpg" width="500"/>
+            <img src="Imagenes/select.jpg" width="500" />
             <div>
                 checkbox:
                 <label>
-                    <input type="checkbox"/> Mayor de edad
+                    <input type="checkbox" /> Mayor de edad
                 </label>
                 <label>
-                    <input type="checkbox"/>Menos de edad
+                    <input type="checkbox" />Menos de edad
                 </label>
             </div>
             <img src="Imagenes/chekbox.jpg" width="500" />
             <div>
                 Color:
-                <input type="color"/>
+                <input type="color" />
             </div>
             <div>
                 Fecha:
@@ -208,9 +229,10 @@
             </section>
             <section id="CONCEPTOYMC">
                 <H2>CONCEPTOYMC</H2>
-                <iframe src="https://miro.com/app/board/uXjVNdP0iqA=/?share_link_id=806709011044" frameborder="0" width="600px" height="600px"></iframe>
+                <iframe src="https://miro.com/app/board/uXjVNdP0iqA=/?share_link_id=806709011044" frameborder="0"
+                    width="600px" height="600px"></iframe>
             </section>
-            
+
         </div>
         <div class="ladoder">
             <nav class="flotanteder">
@@ -246,4 +268,5 @@
     </div>
 
 </body>
+
 </html>
