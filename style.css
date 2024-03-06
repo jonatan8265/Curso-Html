@@ -1,7 +1,48 @@
+/*ESTILOS GENERALES*/
+*{
+    padding:0px;
+    margin:0px;
+}
+
+.contheader {
+    min-width: 1024px;
+    width: 100%;
+    height: 250px;
+    background-image: url(Imagenes/paven.png) width 100;
+    margin: 0px auto;
+}
+.contheader, #logotipo {
+    width: 770px;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+.contheader, #logotipo img {
+    display: block;
+    text-align: center;
+    margin: 0px auto; 
+    width: 140px;
+}
+
+.contheader h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.contheader h1 a {
+    color: rgb(104, 221, 20);
+    text-decoration: none;
+    
+}
+
 html {
     scroll-behavior: smooth;
 }
-header,
+header{
+    min-width: 1024px;
+    width: 100%;
+    height: 250px;
+    margin: 0px auto;
+}
 footer {
     background-color: #c0dbb2;
     border: 1px solid #349a05;
@@ -53,9 +94,7 @@ img {
 .paginas button {
     font-size: 10px;
 }
-.contheader {
-    display:flex ;
-}
+
 .navheader li {
     display: inline;
 }
