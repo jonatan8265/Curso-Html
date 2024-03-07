@@ -4,6 +4,14 @@
     margin:0px;
 }
 
+@font-face {
+    font-family: "nevis";
+    src: url("fonts/nevis.eot");
+    src: url("fonts/nevis.eot?#iefix") format("embedded-opentype")
+        url("fonts/nevis.woff") format("woff"),
+        url("fonts/nevis.ttf") format("truetype"),
+        url("fonts/nevis.svg") format("svg");
+}
 .contheader {
     min-width: 1024px;
     width: 100%;
@@ -26,12 +34,13 @@
 .contheader h1 {
     text-align: center;
     font-size: 40px;
+    font-family: nevis;
 }
 
 .contheader h1 a {
-    color: rgb(104, 221, 20);
+    color: rgb(221, 20, 157);
     text-decoration: none;
-    
+    font-family: nevis;
 }
 
 html {
@@ -99,12 +108,7 @@ img {
     display: inline;
 }
 
-
-
-
-
 .pruebaparrafo {
     color: #349a05;
     border: 1px solid black;
 }
-
