@@ -18,8 +18,9 @@
     min-width: 1024px;
     width: 100%;
     height: 250px;
-    background-image: url(Imagenes/paven.png) width 100;
+    background-image: url(Imagenes/paven.png) width 100%;
     margin: 0px auto;
+    border: solid 1px #a80e0e;
 }
 .contheader, #logotipo {
     width: 770px;
@@ -36,26 +37,60 @@
 .contheader h1 {
     text-align: center;
     font-size: 40px;
-    
+    letter-spacing: 4px;
+    margin-top: 10px;
+    text-shadow: 0px 2px 1px #333333;
+    transition: all 300ms;
 }
 
+
 .contheader h1 a {
-    color: rgb(221, 20, 157);
+    color: rgb(10, 195, 212);
     text-decoration: none;
     font-family: nevis;
     
     
 }
 
+/* Barra de Navegacion */
+.navheader {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(7, 111, 120);
+    font-family: sans-serif;
+    font-size: 14px;
+    box-shadow: 0px 0px 2px gray;;
+}
+.navheader ul {
+    list-style: none;
+    text-decoration: none;
+    margin: 0px auto;
+    width: 60%;
+}
+
+.navheader ul li {
+    line-height: 33px;
+    float: left;
+    border-right: 1px solid grey;
+
+}
+
+.navheader ul li a {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.navheader ul li a:first-child {
+    border-left: 1px solid grey;
+}
+/* Fin Barra de Navegacion */
 html {
     scroll-behavior: smooth;
 }
-header{
-    min-width: 1024px;
-    width: 100%;
-    height: 250px;
-    margin: 0px auto;
-}
+
 footer {
     background-color: #c0dbb2;
     border: 1px solid #349a05;
@@ -68,31 +103,34 @@ h2 {
 img {
     width: 600px;
 }
-.encabezado {
-    border: 1px solid #d4bb1a;
-    background-color: #182F29;
+
+#root {
+    box-sizing: content-box;
+    border: solid 10px rgb(10, 195, 212);
 }
+
 .principal {
     display: flex;
     justify-content: space-around;
     height: fit-content;
     align-content: stretch;
-    border: 1px solid #d4bb1a;
+    border: 5px solid #d4bb1a;
     background-color: #D9ABB6;
 }
 .ladoizq, .ladoder {
-    border: 1px solid #91e969;
+    border: 5px solid #91e969;
     background-color: #D9ABB6;
-    flex-basis: 25%;
+    list-style-position: inside;
+    flex-basis: 20%;
 }
 .flotanteizq, .flotanteder {
     border: 1px solid #cccccc;
     position: fixed;
 }
 .content {
-    border: 1px solid #e9b869;
+    border: 5px solid #7a69e9;
     background-color: #BCCFD5;
-    flex-basis: 50%;
+    flex-basis: 60%;
 }
 .fondo {
     border: 1px solid #d4bb1a;
@@ -108,9 +146,7 @@ img {
     font-size: 10px;
 }
 
-.navheader li {
-    display: inline;
-}
+
 
 .pruebaparrafo {
     color: #349a05;
