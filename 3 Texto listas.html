@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="jpeg" href="Imagenes/Logo.jpeg">
     <link rel="stylesheet" href="style.css">
-    <title>APUNTES CEL</title>
+    <title>3 TEXTO LISTAS</title>
 </head>
 <body>
     <header class="contheader">
@@ -31,7 +31,7 @@
             </ul>
         </nav>
     </header>
-    <main class="principal">
+    <div class="principal">
         <div class="ladoizq">
             <nav class="flotanteizq">
                 <h3>MENU</h3>
@@ -77,53 +77,67 @@
                 </ul>
             </nav>
             <div class="paginas">
-                <a href="index.html">
+                <a href="1 Texto ApuntesCel.html">
                     <button>
-                        Index
+                        Texto ApuntesCel
                     </button>
                 </a>
                 <button>
                     <a id="arriba" href="#top"> Top
                     </a>
                 </button>
-                <a href="2 Texto listas.html">
+                <a href="3 Textos Tablas.html">
                     <button>
-                        Texto Listas
+                        Texto Tablas
                     </button>
                 </a>
-            </div>                   
+            </div>
         </div>
-        <article class="content">
-            <h1>APUNTES CEL</h1>
-            <section id="APUNTE IMAGENES">
-                <h2>APUNTES IMAGENES</h2>
-            </section>
-            <section id="EJEMPLOS">
-                <h2>EJEMPLOS</h2>
-            </section>
-            <section id="ANEXOS">
-                <h2>ANEXOS</h2>
-                <img src="Imagenes/paleta de colores para paginas web - Búsqueda de Google.jpeg" alt="Paletas de colores">
-                <img src="Imagenes/Elementos basico de html.jpg" alt="elementos basicos html">
-            </section>
-            <img src="Imagenes/hoja de trucos.jpg" alt="Hoja de trucos">
-            <span class="nota">
-                <p>
-                    <strong>Nota</strong>: este sera un ejemplo de como se debera ver un comentario o Nota, para eso creas un
-                    <code>div</code>, luego un <code>p</code>; IMPORTANTE ! Deberas crear en la etiqueta un atributo de clase, y
-                    puedas en <code>CSS</code> ingresar las propiedades
-                </p>
-            </span>
-            <Section id="CONCEPTOYMC">
-                <h2>CONCEPTO Y MAPA CONCEPTUAL</h2>
-                <img src="Imagenes/Apuntes/APUNTES CEL/Apuntes Cel concepto.jpg" alt="ApuntesCel">
-                <audio src="Videos/concepto apuntes cel.mp4" controls></audio>
-                <iframe src="https://miro.com/app/board/uXjVNdP0iqA=/?share_link_id=665315774555" frameborder="0" width="600px" height="600px">CONCEPTOYMC</iframe>
-            </Section>
-        </article>
-        <aside class="ladoder">
+        <div class="content">
+            <H2>TEXTO LISTA</H2>
+                <ol>
+                    <li>desayuno</li>
+                    <li>almuerzo</li>
+                    <li>Comida</li>
+                </ol>
+                <ul type="disc";>
+                    <li>Mercenarios</li>
+                    <li>Rambo</li>
+                    <li>Rocky</li>
+                </ul>
+                <hr/>
+            <h2> 11 Listas de definicion</h2>
+            <figure>
+                <img src="imagenes/10 Apuntes a .jpeg" alt="apuntes a" height="250"/>
+                <figcaption>El elemento HTML <code>dl</code> representa una lista       descriptiva. El elemento encierra una lista de grupos de términos
+                    (especificados con el uso del elemento <code>dt</code>) y de descripciones (proveídas con elementos <code>dd</code>. 
+        <br>
+                    Algunos usos comunes para este elemento son implementar un glosario o para desplegar metadatos (lista de pares llave-valor).
+                </figcaption>
+            </figure>
+
+            <h2>Ejemplo</h2>
+            <div style="background-color: rgb(231, 236, 172);">
+                <dl>
+                    <dt>Naranja</dt>
+                    <dd>
+                        Fruta Acida de color naranja
+                    </dd>
+                    <dt>Piña</dt>
+                    <dd>
+                        Fruta con tallo cultivada en la maria
+                    </dd>
+                </dl>
+            </div>
+
+            <img src="Imagenes/dl html.jpg" alt="dl html"/>
+            <hr/>
+            <h2>Apuntes</h2>
+
+        </div>
+        <div class="ladoder">
             <nav class="flotanteder">
-                <h3>SECCIONES</h3>
+                <h2>SECCIONES</h2>
                 <ul>
                     <li>
                         <a href="#APUNTESIMÁGENES">Apuntes imagenes</a>
@@ -138,18 +152,14 @@
                         <a href="#EJERCICIOS">Ejercicios</a>
                     </li>
                     <li>
-                        <a href="#CONCEPTOYMC">ConcetoyMc</a>
-                    </li>
-                    <li>
                         <a href="#GLOSARIO">Glosario</a>
                     </li>
                     <li>
                         <a href="#FUENTES">Fuentes</a>
                     </li>
- 
                 </ul>
             </nav>
-        </aside>
-    </main>
+        </div>
+    </div>
 </body>
 </html>
