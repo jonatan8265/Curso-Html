@@ -137,6 +137,10 @@ img {
     width: 600px;
 }
 
+a{
+    text-decoration: none;
+}
+
 #root {
     box-sizing: content-box;
     border: solid 10px rgb(10, 195, 212);
