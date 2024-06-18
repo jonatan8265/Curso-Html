@@ -11,273 +11,296 @@
 </head>
 
 <body>
-    <header class="contheader">
-        <nav class="navheader">
-            <ul>
-                <li>
-                    <a href="https://jonatan8265.github.io/curso-css/">CSS</a>
-                <li>
-                    <a href="https://jonatan8265.github.io/git/">GIT</a>
-                </li>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <div class="principal">
-        <div class="ladoizq">
-            <nav class="flotanteizq">
-                <h4>MENU</h4>
-                <ul>
-                    <li>
-                        <a href="index.html">Index</a>
-                    </li>
-                    <li>
-                        <a href="1 ApuntesCel.html">Apuntes Cel</a>
-                    </li>
-                    <li>
-                        <a href="2 Texto Titulo y Parrafo.html">Texto Titulo y Parrafo</a>
-                    </li>
-                    <li>
-                        <a href="3 Texto listas.html">Texto Listas</a>
-                    </li>
-                    <li>
-                        <a href="4 Textos Tablas.html">Texto Tabla</a>
-
-                    </li>
-                    <li>
-                        <a href="5 Estructura Semantica.html">Estructura Y Semantica</a>
-                    </li>
-                    <li>
-                        <a href="6 Multimedia Imagen.html">Multimedia Imagen</a>
-                    </li>
-                    <li>
-                        <a href="7 Multimedia Video.html">Multimedia Video</a>
-                    </li>
-                    <li>
-                        <a href="8 Multimedia iframe.html">
-                            Multimedia iframe</a>
-                    </li>
-                    <li>
-                        <a href="9 Interactivos Enlaces-Menu.html">Interativos Enlaces-Menu</a>
-                    </li>
-                    <li>
-                        <a href="10 Interactivos Formularios.html">Interativos Formularios</a>
-                    </li>
-                    <li>
-                        <a href="#navfooter">Abajo</a>
-                    </li>
-
-                </ul>
-            </nav>
-            <div class="paginas">
-                <a href="4 Textos Tablas.html">
-                    <button>
-                        Texto Tablas
-                    </button>
-                </a>
-                <a href="6 Multimedia Imagen.html">
-                    <button>
-                        Multimedia Imagen
-                    </button>
-                </a>
-                <button>
-                    <a id="arriba" href="#top"> Top
-                    </a>
-                </button>
+    <div id="root">
+        <header class="contheader">
+            <div id="logotipo">
+                <img src="Imagenes/Logo.png" alt="">
+                <h1>
+                    <a href="index.html">HTML</a>
+                </h1>
             </div>
-        </div>
-        <div class="content">
-            <h2>ESTRUCTURA Y SEMANTICA</h2>
-            <section id="APUNTESIMÁGENES">
-                <h3>APUNTES IMAGENES</h3>
-                <img src="Imagenes/Apuntes/Estructura/11 Estructura html.png" alt="Estructura" width="400">
-                <img src="Imagenes/Apuntes/Estructura/12 Estructura Semantica.png" alt="Semantica" width="400">
-                <img src="Imagenes/How to use the HTML5 elements.jpg" alt="Como usar elementos html" width="350"
-                    vspace="5px">
-            </section>
-            <h3>Contenido de sección</h3>
-            <p>
-                elementos semánticos, o marcados semánticos, que nos ayudan a definir las distintas divisiones de una
-                página web.
-                Los elementos que pertenecen al modelo de contenido de secciones crean una sección en el esquema actual
-                que define el alcance de los elementos <code>header, footer</code> y Contenido del encabezado.
-            </p>
-            <p>
-                Los elementos que pertenecen a esta categoría son <code>article, aside, nav,section</code>.
-            </p>
-            <h3>Contenido de redacción</h3>
-            <p>
-                <em>define el texto y el marcado que contiene</em>. Las series de contenido de redacción forman
-                párrafos.
-            </p>
-            <p>
-                Los elementos que pertenecen a esta categoría son: <a
-                    href="https://developer.mozilla.org/es/docs/Web/HTML/Element" target="_blank">infoMoz...</a>
-            </p>
-            <dl>
-                <dt><strong>Strong</strong></dt>
-                <dd>es elemento que es apropiado para marcar con <strong>especial enfasis</strong> en las partes más
-                    importantes de un texto.
-
-                    strong tiene un hermano menor: <em>em</em> em sirve para dar énfasis y strong para dar mucho énfasis
-                </dd>
-                <img src="Imagenes/strong.jpg" alt="strong">
-                <dt><strong>abbr:</strong></dt>
-                <dd>I do <abbr title="Hypertext Markup Language">HTML</abbr></dd>
-                <p>El elemento HTML <abbr> (o Elemento de Abreviación HTML) representa una abreviación o acrónimo; el
-                        atributo opcional
-                        title puede ampliar o describir la abreviatura. Si está presente, el atributo title debe
-                        contener la descripción
-                        completa y nada más</p>
-                <img src="Imagenes/abbr.jpg" alt="abbr">
-                <dt><strong>b</strong></dt>
-                <dd><b>Indica que el texto debe ser representado con una variable bold</b>, o negrita de la tipografía
-                    que se esté usando.</dd>
-                <dt><strong>i</strong></dt>
-                <dd><i>Muestra el texto marcado con un estilo en cursiva o italica.</i></dd>
-                <img src="Imagenes/i.jpg" alt="i">
-
-                <dt><strong>mark</strong></dt>
-                <dd>El Elemento HTML <code>mark</code> representa un <mark>texto marcado</mark> texto marcado o
-                    resaltado como referencia o anotación, debido a su relevancia o importancia en un contexto
-                    particular.</dd>
-                <img src="Imagenes/mark.jpg" alt="mark">
-                <dt><strong>samp</strong></dt>
-                <dd>El elemento HTML Sample <code>samp</code> se utiliza para incluir texto en línea que
-                    <samp>representa una muestra (o cita)</samp> de la salida de un programa de ordenador.</dd>
-                <dt><strong>small</strong></dt>
-                <dd>El elemento HTML <i>small</i> hace el tamaño del texto una talla más pequeña (por ejemplo, de largo
-                    a mediano, o de pequeño a extra pequeño) que el tamaño mínimo de fuente del navegador. En HTML5,
-                    <small>este elemento es reutilizado para representar comentarios laterales y letra pequeña,
-                        incluyendo derechos de autor y texto legal, independientemente de su estilo de
-                        presentación.</small></dd>
-                <dt><strong></strong></dt>
-                <dt><strong></strong></dt>
-                <dt><strong></strong></dt>
-                <dt><strong></strong></dt>
-                <dt><strong></strong></dt>
-
-
-                <dt><strong>br</strong></dt>
-                <dd><i>El elemento de Salto de Linea</i>
-                    <br>El elemento HTML line break br produce un salto de línea en el texto (retorno de carro). Es útil
-                    para escribir un poemao una dirección, donde la división de las líneas es significante.
-                </dd>
-                <dt><strong>span</strong> </dt>
-                <dd><i>abarcar</i>Es un contenedor en línea. Sirve para aplicar estilo al texto o agrupar elementos en
-                    línea.</dd>
-                <dt><strong>audio</strong></dt>
-                <dd>El elemento audio se usa para insertar contenido de audio en un documento</dd>
-                <dt><strong>picture</strong></dt>
-                <dd>es un contenedor usado para especificar múltiples elementos
-                    <code>source</code> y un elemento <code>img</code> contenido en él para proveer versiones de una
-                    imagen para diferentes escenarios de
-                    dispositivos. Si no hay coincidencias con los elementos
-                    <code>source</code>, el archivo especificado en los atributos src del elemento <code>img</code> es
-                    utilizado. La imagen seleccionada es
-                    entonces presentada en el espacio ocupado por el elemento <code>img</code>.
-                </dd>
-                <dt><strong>img</strong></dt>
-                <dd>El elemento de imagen HTML <em>img</em> representa una imagen en el documento</dd>
-
-
-
-                <dt><strong>video</strong></dt>
-                <dt><strong>iframe</strong></dt>
-                <dt><strong>embed</strong></dt>
-                <dt><strong>q</strong></dt>
-                <dt><strong>cite</strong></dt>
-                <dt><strong>code</strong></dt>
-                <dt><strong>dfn</strong></dt>
-                <dt><strong>kbd</strong></dt>
-                <dt><strong>textarea</strong></dt>
-
-                <dt><strong>datalist</strong></dt>
-                <dt><strong>button</strong></dt>
-                <dt><strong>input</strong></dt>
-                <dt><strong>label</strong></dt>
-                <dt><strong>progress</strong></dt>
-                <dt><strong>select</strong>
-                <dd>El elemento select <code>select</code> de HTML representa un control que muestra un menú de
-                    opciones. Las opciones contenidas en el menú son representadas por elementos <code>option</code>,
-                    los cuales pueden ser agrupados por elementos</dd>
-                </dt>
-
-
-                <dt><strong>bdo</strong></dt>
-                <dt><strong>data</strong></dt>
-                <dt><strong>canvas</strong></dt>
-            </dl>
-            time
-            script
-            math
-            object
-            noscript
-            ruby
-            sub
-            sup
-            svg
-            var
-            wbr y texto sin formato (no solo consiste de espacios en blanco).
-
-            <h3>Comportamiento de Elementos</h3>
-            <dl>
-                <dt><strong>inline</strong></dt>
-                <dd>
-                    Aquellos cuyo contenido se encuentra en una misma linea, de tal manera que que si colocamos dos o
-                    más elementos en linea sin expresar un salto de linea, estos elementos se presentarán uno seguido de
-                    otro en una misma linea.
-                    <img src="https://static.platzi.com/media/user_upload/display-b7eb7570-560e-4dd3-b4de-53057067a538.jpg"
-                        alt="Inline o block">
-                </dd>
-                <dt><strong>block</strong></dt>
-                <dd>
-                    Los elementos de tipo bloque BLOCK son aquellos que se comportan como bloques, cada vez que se
-                    presenta un elemento de este tipo se hace un salto de linea de manera predeterminada sin la
-                    necesidad de colocar una etiqueta de salto de linea.
-                </dd>
-            </dl>
-            <section id="FUENTES">
-                <H2>FUENTES</H2>
-                <a href="https://developer.mozilla.org/es/docs/Web/HTML/Content_categories" target="_blank">Categorias
-                    de Contenido</a>
-            </section>
-            <section id="CONCEPTOYMC">
-                <H2>CONCEPTOYMC</H2>
-                <img src="Imagenes/Apuntes/Estructura/9 estructura concepto.jpg" alt="ESTRUCTURAYCONCEPTO">
-                <iframe src="https://miro.com/app/board/uXjVNdP0iqA=/?share_link_id=89538116868" frameborder="0"
-                    width="600px" height="600px"></iframe>
-            </section>
-
-            <!-- este es un comentario que inserte con ctrl k + ctrl c -->
-        </div>
-        <div class="ladoder">
-            <nav class="flotanteder">
-                <h3>SECCIONES</h3>
+            <nav class="navheader">
                 <ul>
                     <li>
-                        <a href="#APUNTESIMÁGENES">Apuntes imagenes</a>
-                    </li>
+                        <a href="https://jonatan8265.github.io/curso-css/">CSS</a>
                     <li>
-                        <a href="#EJEMPLOS">Ejemplos</a>
+                        <a href="https://jonatan8265.github.io/git/">GIT</a>
                     </li>
-                    <li>
-                        <a href="#APUNTES">Apuntes</a>
-                    </li>
-                    <li>
-                        <a href="#EJERCICIOS">Ejercicios</a>
-                    </li>
-                    <li>
-                        <a href="#GLOSARIO">Glosario</a>
-                    </li>
-                    <li>
-                        <a href="#FUENTES">Fuentes</a>
-                    </li>
-                    <li>
-                        <a href="#CONCEPTOYMC">ConcetoyMc</a>
                     </li>
                 </ul>
             </nav>
+        </header>
+        <div class="principal">
+            <div class="ladoizq">
+                <nav class="flotanteizq">
+                    <h4>MENU</h4>
+                    <ul>
+                        <li>
+                            <a href="index.html">Index</a>
+                        </li>
+                        <li>
+                            <a href="1 ApuntesCel.html">Apuntes Cel</a>
+                        </li>
+                        <li>
+                            <a href="2 Texto Titulo y Parrafo.html">Texto Titulo y Parrafo</a>
+                        </li>
+                        <li>
+                            <a href="3 Texto listas.html">Texto Listas</a>
+                        </li>
+                        <li>
+                            <a href="4 Textos Tablas.html">Texto Tabla</a>
+
+                        </li>
+                        <li>
+                            <a href="5 Estructura Semantica.html">Estructura Y Semantica</a>
+                        </li>
+                        <li>
+                            <a href="6 Multimedia Imagen.html">Multimedia Imagen</a>
+                        </li>
+                        <li>
+                            <a href="7 Multimedia Video.html">Multimedia Video</a>
+                        </li>
+                        <li>
+                            <a href="8 Multimedia iframe.html">
+                                Multimedia iframe</a>
+                        </li>
+                        <li>
+                            <a href="9 Interactivos Enlaces-Menu.html">Interativos Enlaces-Menu</a>
+                        </li>
+                        <li>
+                            <a href="10 Interactivos Formularios.html">Interativos Formularios</a>
+                        </li>
+                        <li>
+                            <a href="#navfooter">Abajo</a>
+                        </li>
+
+                    </ul>
+                </nav>
+                <div class="paginas">
+                    <a href="4 Textos Tablas.html">
+                        <button>
+                            Texto Tablas
+                        </button>
+                    </a>
+                    <a href="6 Multimedia Imagen.html">
+                        <button>
+                            Multimedia Imagen
+                        </button>
+                    </a>
+                    <button>
+                        <a id="arriba" href="#top"> Top
+                        </a>
+                    </button>
+                </div>
+            </div>
+            <div class="content">
+                <h2>ESTRUCTURA Y SEMANTICA</h2>
+                <section id="APUNTESIMÁGENES">
+                    <h3>APUNTES IMAGENES</h3>
+                    <img src="Imagenes/Apuntes/Estructura/11 Estructura html.png" alt="Estructura" width="400">
+                    <img src="Imagenes/Apuntes/Estructura/12 Estructura Semantica.png" alt="Semantica" width="400">
+                    <img src="Imagenes/How to use the HTML5 elements.jpg" alt="Como usar elementos html" width="350"
+                        vspace="5px">
+                </section>
+                <h3>Contenido de sección</h3>
+                <p>
+                    elementos semánticos, o marcados semánticos, que nos ayudan a definir las distintas divisiones de
+                    una
+                    página web.
+                    Los elementos que pertenecen al modelo de contenido de secciones crean una sección en el esquema
+                    actual
+                    que define el alcance de los elementos <code>header, footer</code> y Contenido del encabezado.
+                </p>
+                <p>
+                    Los elementos que pertenecen a esta categoría son <code>article, aside, nav,section</code>.
+                </p>
+                <h3>Contenido de redacción</h3>
+                <p>
+                    <em>define el texto y el marcado que contiene</em>. Las series de contenido de redacción forman
+                    párrafos.
+                </p>
+                <p>
+                    Los elementos que pertenecen a esta categoría son: <a
+                        href="https://developer.mozilla.org/es/docs/Web/HTML/Element" target="_blank">infoMoz...</a>
+                </p>
+                <dl>
+                    <dt><strong>Strong</strong></dt>
+                    <dd>es elemento que es apropiado para marcar con <strong>especial enfasis</strong> en las partes más
+                        importantes de un texto.
+
+                        strong tiene un hermano menor: <em>em</em> em sirve para dar énfasis y strong para dar mucho
+                        énfasis
+                    </dd>
+                    <img src="Imagenes/strong.jpg" alt="strong">
+                    <dt><strong>abbr:</strong></dt>
+                    <dd>I do <abbr title="Hypertext Markup Language">HTML</abbr></dd>
+                    <p>El elemento HTML <abbr> (o Elemento de Abreviación HTML) representa una abreviación o acrónimo;
+                            el
+                            atributo opcional
+                            title puede ampliar o describir la abreviatura. Si está presente, el atributo title debe
+                            contener la descripción
+                            completa y nada más</p>
+                    <img src="Imagenes/abbr.jpg" alt="abbr">
+                    <dt><strong>b</strong></dt>
+                    <dd><b>Indica que el texto debe ser representado con una variable bold</b>, o negrita de la
+                        tipografía
+                        que se esté usando.</dd>
+                    <dt><strong>i</strong></dt>
+                    <dd><i>Muestra el texto marcado con un estilo en cursiva o italica.</i></dd>
+                    <img src="Imagenes/i.jpg" alt="i">
+
+                    <dt><strong>mark</strong></dt>
+                    <dd>El Elemento HTML <code>mark</code> representa un <mark>texto marcado</mark> texto marcado o
+                        resaltado como referencia o anotación, debido a su relevancia o importancia en un contexto
+                        particular.</dd>
+                    <img src="Imagenes/mark.jpg" alt="mark">
+                    <dt><strong>samp</strong></dt>
+                    <dd>El elemento HTML Sample <code>samp</code> se utiliza para incluir texto en línea que
+                        <samp>representa una muestra (o cita)</samp> de la salida de un programa de ordenador.
+                    </dd>
+                    <dt><strong>small</strong></dt>
+                    <dd>El elemento HTML <i>small</i> hace el tamaño del texto una talla más pequeña (por ejemplo, de
+                        largo
+                        a mediano, o de pequeño a extra pequeño) que el tamaño mínimo de fuente del navegador. En HTML5,
+                        <small>este elemento es reutilizado para representar comentarios laterales y letra pequeña,
+                            incluyendo derechos de autor y texto legal, independientemente de su estilo de
+                            presentación.</small>
+                    </dd>
+                    <dt><strong></strong></dt>
+                    <dt><strong></strong></dt>
+                    <dt><strong></strong></dt>
+                    <dt><strong></strong></dt>
+                    <dt><strong></strong></dt>
+
+
+                    <dt><strong>br</strong></dt>
+                    <dd><i>El elemento de Salto de Linea</i>
+                        <br>El elemento HTML line break br produce un salto de línea en el texto (retorno de carro). Es
+                        útil
+                        para escribir un poemao una dirección, donde la división de las líneas es significante.
+                    </dd>
+                    <dt><strong>span</strong> </dt>
+                    <dd><i>abarcar</i>Es un contenedor en línea. Sirve para aplicar estilo al texto o agrupar elementos
+                        en
+                        línea.</dd>
+                    <dt><strong>audio</strong></dt>
+                    <dd>El elemento audio se usa para insertar contenido de audio en un documento</dd>
+                    <dt><strong>picture</strong></dt>
+                    <dd>es un contenedor usado para especificar múltiples elementos
+                        <code>source</code> y un elemento <code>img</code> contenido en él para proveer versiones de una
+                        imagen para diferentes escenarios de
+                        dispositivos. Si no hay coincidencias con los elementos
+                        <code>source</code>, el archivo especificado en los atributos src del elemento <code>img</code>
+                        es
+                        utilizado. La imagen seleccionada es
+                        entonces presentada en el espacio ocupado por el elemento <code>img</code>.
+                    </dd>
+                    <dt><strong>img</strong></dt>
+                    <dd>El elemento de imagen HTML <em>img</em> representa una imagen en el documento</dd>
+
+
+
+                    <dt><strong>video</strong></dt>
+                    <dt><strong>iframe</strong></dt>
+                    <dt><strong>embed</strong></dt>
+                    <dt><strong>q</strong></dt>
+                    <dt><strong>cite</strong></dt>
+                    <dt><strong>code</strong></dt>
+                    <dt><strong>dfn</strong></dt>
+                    <dt><strong>kbd</strong></dt>
+                    <dt><strong>textarea</strong></dt>
+
+                    <dt><strong>datalist</strong></dt>
+                    <dt><strong>button</strong></dt>
+                    <dt><strong>input</strong></dt>
+                    <dt><strong>label</strong></dt>
+                    <dt><strong>progress</strong></dt>
+                    <dt><strong>select</strong>
+                    <dd>El elemento select <code>select</code> de HTML representa un control que muestra un menú de
+                        opciones. Las opciones contenidas en el menú son representadas por elementos
+                        <code>option</code>,
+                        los cuales pueden ser agrupados por elementos</dd>
+                    </dt>
+
+
+                    <dt><strong>bdo</strong></dt>
+                    <dt><strong>data</strong></dt>
+                    <dt><strong>canvas</strong></dt>
+                </dl>
+                time
+                script
+                math
+                object
+                noscript
+                ruby
+                sub
+                sup
+                svg
+                var
+                wbr y texto sin formato (no solo consiste de espacios en blanco).
+
+                <h3>Comportamiento de Elementos</h3>
+                <dl>
+                    <dt><strong>inline</strong></dt>
+                    <dd>
+                        Aquellos cuyo contenido se encuentra en una misma linea, de tal manera que que si colocamos dos
+                        o
+                        más elementos en linea sin expresar un salto de linea, estos elementos se presentarán uno
+                        seguido de
+                        otro en una misma linea.
+                        <img src="https://static.platzi.com/media/user_upload/display-b7eb7570-560e-4dd3-b4de-53057067a538.jpg"
+                            alt="Inline o block">
+                    </dd>
+                    <dt><strong>block</strong></dt>
+                    <dd>
+                        Los elementos de tipo bloque BLOCK son aquellos que se comportan como bloques, cada vez que se
+                        presenta un elemento de este tipo se hace un salto de linea de manera predeterminada sin la
+                        necesidad de colocar una etiqueta de salto de linea.
+                    </dd>
+                </dl>
+                <section id="FUENTES">
+                    <H2>FUENTES</H2>
+                    <a href="https://developer.mozilla.org/es/docs/Web/HTML/Content_categories"
+                        target="_blank">Categorias
+                        de Contenido</a>
+                </section>
+                <section id="CONCEPTOYMC">
+                    <H2>CONCEPTOYMC</H2>
+                    <img src="Imagenes/Apuntes/Estructura/9 estructura concepto.jpg" alt="ESTRUCTURAYCONCEPTO">
+                    <iframe src="https://miro.com/app/board/uXjVNdP0iqA=/?share_link_id=89538116868" frameborder="0"
+                        width="600px" height="600px"></iframe>
+                </section>
+
+                <!-- este es un comentario que inserte con ctrl k + ctrl c -->
+            </div>
+            <div class="ladoder">
+                <nav class="flotanteder">
+                    <h3>SECCIONES</h3>
+                    <ul>
+                        <li>
+                            <a href="#APUNTESIMÁGENES">Apuntes imagenes</a>
+                        </li>
+                        <li>
+                            <a href="#EJEMPLOS">Ejemplos</a>
+                        </li>
+                        <li>
+                            <a href="#APUNTES">Apuntes</a>
+                        </li>
+                        <li>
+                            <a href="#EJERCICIOS">Ejercicios</a>
+                        </li>
+                        <li>
+                            <a href="#GLOSARIO">Glosario</a>
+                        </li>
+                        <li>
+                            <a href="#FUENTES">Fuentes</a>
+                        </li>
+                        <li>
+                            <a href="#CONCEPTOYMC">ConcetoyMc</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </div>
 </body>
