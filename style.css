@@ -141,7 +141,7 @@ a{
 }
 
 #root {
-    box-sizing: content-box;
+    box-sizing:border-box;
     border: solid 10px rgb(10, 195, 212);
 }
 
@@ -169,6 +169,7 @@ a{
     border: 5px solid #7a69e9;
     background-color: #BCCFD5;
     flex-basis: 60%;
+    
 }
 .fondo {
     border: 1px solid #d4bb1a;
@@ -189,6 +190,11 @@ a{
 .pruebaparrafo {
     color: #349a05;
     border: 1px solid black;
+}
+
+.tabla {
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
 /* Notas Inicio */
