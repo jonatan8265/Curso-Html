@@ -15,12 +15,12 @@
     font-style: normal;
 }
 .contheader {
-    min-width: 1024px;
-    width: 100%;
+    box-sizing: border-box;
+    min-width: 100%;
     height: 250px;
     background-image: url(Imagenes/paven.png) width 100%;
     margin: 0px auto;
-    border: solid 1px #a80e0e;
+    border: solid 5px red;
 }
 .contheader, #logotipo {
     width: 770px;
@@ -54,12 +54,13 @@
 
 /* Barra de Navegacion */
 .navheader {
-    width: 100%;
-    height: 35px;
+    box-sizing: border-box;
+    height: 45px;
     background-color: rgb(7, 111, 120);
     font-family: sans-serif;
     font-size: 14px;
-    box-shadow: 0px 0px 2px gray;;
+    box-shadow: 0px 0px 2px gray;
+    border: solid 5px red;
 }
 .navheader ul {
     list-style: none;
@@ -124,7 +125,7 @@ html {
 
 footer {
     background-color: #c0dbb2;
-    border: 1px solid #349a05;
+    border: 5px solid red;
 }
 
 h2 {
@@ -150,7 +151,7 @@ a{
     justify-content: space-around;
     height: fit-content;
     align-content: stretch;
-    border: 5px solid #d4bb1a;
+    border: 5px solid red;
     background-color: #D9ABB6;
     margin: 0px auto;
     width: 82%;

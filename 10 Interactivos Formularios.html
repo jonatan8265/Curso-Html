@@ -13,18 +13,24 @@
 <body>
     <div id="root">
         <header class="contheader">
-            <nav class="navheader">
-                <ul>
-                    <li>
-                        <a href="https://jonatan8265.github.io/curso-css/">CSS</a>
-                    </li>
-                    <li>
-                        <a href="https://jonatan8265.github.io/git/">GIT</a>
-                    </li>
-                </ul>
-            </nav>
+            <div id="logotipo">
+                <img src="Imagenes/Logo.png" alt="logo">
+            </div>
+            <h1>
+                <a href="index.html">HTML</a>
+            </h1>
         </header>
-        <div class="principal">
+        <nav class="navheader">
+            <ul>
+                <li>
+                    <a href="https://jonatan8265.github.io/curso-css/">CSS</a>
+                </li>
+                <li>
+                    <a href="https://jonatan8265.github.io/git/">GIT</a>
+                </li>
+            </ul>
+        </nav>
+        <main class="principal">
             <div class="ladoizq">
                 <nav class="flotanteizq">
                     <h4>MENU</h4>
@@ -43,7 +49,7 @@
                         </li>
                         <li>
                             <a href="4 Textos Tablas.html">Texto Tabla</a>
-    
+
                         </li>
                         <li>
                             <a href="5 Estructura Semantica.html">Estructura Y Semantica</a>
@@ -64,10 +70,7 @@
                         <li>
                             <a href="10 Interactivos Formularios.html">Interativos Formularios</a>
                         </li>
-                        <li>
-                            <a href="#navfooter">Abajo</a>
-                        </li>
-    
+
                     </ul>
                 </nav>
                 <div class="paginas">
@@ -87,7 +90,8 @@
                 <div>
                     <p>
                         El elemento HTML <code>form</code> representa una <i>seccion</i> de un documento que contiene
-                        <mark><b>controles interactivos</b> que permiten a un usuario <b>enviar información a un servidor
+                        <mark><b>controles interactivos</b> que permiten a un usuario <b>enviar información a un
+                                servidor
                                 web</b></mark>
                     </p>
                     <p>
@@ -95,18 +99,20 @@
                         basados en la web con el fin de recibir datos del usuario.
                     </p>
                     <div class="nota">
-                        <strong>NOTA</strong> Hay disponible una amplia variedad de tipos de datos de entrada y widgets de
+                        <strong>NOTA</strong> Hay disponible una amplia variedad de tipos de datos de entrada y widgets
+                        de
                         control, que dependen del dispositivo y el agente de usuario (user agent (en-US)).El elemento
-                        <code>input</code> es uno de los más potentes y complejos en todo HTML debido a la gran cantidad de
+                        <code>input</code> es uno de los más potentes y complejos en todo HTML debido a la gran cantidad
+                        de
                         combinaciones de tipos y atributos de entrada.
                     </div>
-    
-    
+
+
                 </div>
                 <h2 class="ejemplo">Ejemplo 1</h2>
                 <form>
                     <input type="text" placeholder="Nombre...">
-    
+
                 </form>
                 <br>
                 <br>
@@ -115,7 +121,8 @@
                 <div style="background-color:rgb(240, 235, 235) ;">
                     <p>
                         Nota: El Elemento <b><i>label</i></b> <abbr
-                            title="representa una etiqueta para un elemento en una interfaz de usuario.">label</abbr> Este
+                            title="representa una etiqueta para un elemento en una interfaz de usuario.">label</abbr>
+                        Este
                         puede estar asociado con un control ya sea mediante la utilizacion del <i
                             style="color:red ;">atributo for</i>, o ubicando el control dentro del elemento label.Tal
                         control es llamado "el control etiquetado" del elemento label.
@@ -164,7 +171,7 @@
                         Radio
                         <input type="radio" name="genero" id="hombre" value="mujer" />
                         <label for="hombre">hombre</label>
-    
+
                         <input type="radio" name="genero" id="mujer" value="mujer" />
                         <label for="mujer">mujer</label>
                     </div>
@@ -179,12 +186,13 @@
                     selected. If
                     this attribute is omitted, the value is taken from the text content of the option element. The value
                     attribute is used differently for different input types:
-    
+
                 <ul>
                     <li>For "button", "reset", and "submit" - it defines the text on the button</li>
                     <li>For "text", "password", and "hidden" - it defines the initial (default) value of the input field
                     </li>
-                    <li>For "checkbox", "radio", "image" - it defines the value associated with the input (this is also the
+                    <li>For "checkbox", "radio", "image" - it defines the value associated with the input (this is also
+                        the
                         value that is
                         sent on submit)</li>
                 </ul>
@@ -237,7 +245,7 @@
                     <iframe src="https://miro.com/app/board/uXjVNdP0iqA=/?share_link_id=806709011044" frameborder="0"
                         width="600px" height="600px"></iframe>
                 </section>
-    
+
             </div>
             <div class="ladoder">
                 <nav class="flotanteder">
@@ -270,7 +278,10 @@
                     </ul>
                 </nav>
             </div>
-        </div>
+        </main>
+        <footer class="footer" id="navfooter">
+            footer
+        </footer>
     </div>
 
 </body>
