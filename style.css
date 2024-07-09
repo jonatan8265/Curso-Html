@@ -137,6 +137,35 @@ a{
     text-decoration: none;
 }
 
+p{
+    margin: 16px 0;
+}
+
+table {
+    color: gray;
+    font-size: 18px;
+    margin: 10px;
+}
+thead{
+    background: #7a69e9;
+}
+
+th{
+    color: white;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+td{
+padding: 15px;
+border-bottom: solid 1px grey;
+
+}
+
+tbody tr:hover{
+    background: #f487f476;
+}
+
 #root {
     box-sizing:border-box;
     border: solid 10px rgb(10, 195, 212);
