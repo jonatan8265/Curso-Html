@@ -22,12 +22,14 @@
     margin: 0px auto;
     border: solid 5px red;
 }
-.header, .header__logo {
+.header,
+.header__logo {
     width: 770px;
     margin: 0px auto;
     padding-top: 20px;
 }
-.header, .header__logo img {
+.header,
+.header__logo img {
     display: block;
     text-align: center;
     margin: 0px auto; 
@@ -178,7 +180,7 @@ tbody tr:hover{
     border: solid 10px rgb(10, 195, 212);
 }
 
-.principal {
+.main {
     display: flex;
     justify-content: space-around;
     height: fit-content;
@@ -189,16 +191,39 @@ tbody tr:hover{
     box-sizing: border-box;
     
 }
-.ladoizq, .ladoder {
+.aside-left,
+.aside-right {
     border: 5px solid #91e969;
-    background-color: #D9ABB6;
+    background-color: #e7afbcbd;
     list-style-position: inside;
     flex-basis: 20%;
 }
-.flotanteizq, .flotanteder {
+.aside-right__nav,
+.aside-left__nav {
     border: 1px solid #cccccc;
     position: fixed;
 }
+
+.aside-left__nav__bar {
+    border: 1px solid #ffffff;
+    padding: 2px;
+    position: sticky ;
+    top: 550px;
+}
+.aside-left__nav__bar button {
+    font-size: 15px;
+    margin: 10px;
+}
+
+.aside-left__nav__bar button:hover{
+    background: #076f78;
+    color: #ffffff;
+    font-size: 17px;
+    
+}
+
+
+
 .content {
     border: 5px solid #7a69e9;
     background-color: #BCCFD5;
@@ -209,17 +234,6 @@ tbody tr:hover{
     border: 1px solid #d4bb1a;
     background-color: #182F29;
 }
-.paginas {
-    border: 1px solid #ffffff;
-    padding: 2px;
-    position: sticky ;
-    top: 550px;
-}
-.paginas button {
-    font-size: 10px;
-}
-
-
 
 .pruebaparrafo {
     color: #349a05;
