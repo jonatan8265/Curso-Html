@@ -196,7 +196,7 @@ tbody tr:hover{
     border: 5px solid #91e969;
     background-color: #e7afbcbd;
     list-style-position: inside;
-    flex-basis: 20%;
+    flex-basis: 25%;
 }
 .aside-right__nav,
 .aside-left__nav {
@@ -211,14 +211,14 @@ tbody tr:hover{
     top: 550px;
 }
 .aside-left__nav__bar button {
-    font-size: 15px;
-    margin: 10px;
+    font-size: 10px;
+    margin: 5px;
 }
 
 .aside-left__nav__bar button:hover{
     background: #076f78;
     color: #ffffff;
-    font-size: 17px;
+    font-size: 12px;
     
 }
 
