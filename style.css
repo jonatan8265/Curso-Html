@@ -8,6 +8,7 @@
     --bg-dark: #182F29;
     --font-primary: "nevis", sans-serif;
     --font-secondary: sans-serif;
+    --bg-color: #e7caef;
 }
 
 /* General Reset */
@@ -20,7 +21,7 @@
 body {
     font-family: var(--font-secondary);
     color: var(--text-color);
-    background-color: #fff;
+    background-color: var(--bg-color);
     line-height: 1.6;
 }
 
@@ -123,6 +124,7 @@ h1, h2, h3 {
     padding: 10px;
     background-color: var(--bg-light);
     border: 1px solid var(--highlight-color);
+    list-style-position: inside;
 }
 
 .aside-left {
