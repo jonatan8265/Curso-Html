@@ -8,7 +8,7 @@
     --bg-dark: #182F29;
     --font-primary: "nevis", sans-serif;
     --font-secondary: sans-serif;
-    --bg-color: #e7caef;
+    --bg-color: #C6E2EF;
 }
 
 /* General Reset */
@@ -32,6 +32,10 @@ img {
 
 h1, h2, h3 {
     margin-bottom: 15px;
+}
+
+h2{
+    text-align: center;
 }
 
 /* Root Container */
